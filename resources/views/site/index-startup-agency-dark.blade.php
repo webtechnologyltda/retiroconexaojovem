@@ -8,16 +8,17 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Place favicon.ico in the root directory -->
+    
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('aleric/assets/img/logo/favicon.png') }}">
 
-    <!-- CSS here -->
+    
     <link rel="stylesheet" href="{{ asset('aleric/assets/css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('aleric/assets/css/swiper-bundle.css') }}">
     <link rel="stylesheet" href="{{ asset('aleric/assets/css/magnific-popup.css') }}">
     <link rel="stylesheet" href="{{ asset('aleric/assets/css/font-awesome-pro.css') }}">
     <link rel="stylesheet" href="{{ asset('aleric/assets/css/spacing.css') }}">
     <link rel="stylesheet" href="{{ asset('aleric/assets/css/main.css') }}">
+    @livewireStyles
 </head>
 
 <body class="tp-magic-cursor loaded video-production-bg">
@@ -48,6 +49,7 @@
 </body>
 
 </html>
+
 
 
 

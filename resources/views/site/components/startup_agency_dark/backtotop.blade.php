@@ -1,4 +1,4 @@
-﻿<!-- backtotop area start -->
+﻿
 <div class="scrollToTop">
     <div class="arrowUp">
         <i class="fa-light fa-arrow-up"></i>
@@ -20,5 +20,6 @@
         </svg>
     </div>
 </div>
-<!-- backtotop area end -->
+
+
 

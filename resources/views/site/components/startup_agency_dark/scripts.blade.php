@@ -1,4 +1,4 @@
-﻿<!-- JS here -->
+﻿
 <script src="{{ asset('aleric/assets/js/vendor/jquery.js') }}"></script>
 <script src="{{ asset('aleric/assets/js/bootstrap-bundle.js') }}"></script>
 <script src="{{ asset('aleric/assets/js/plugin.js') }}"></script>
@@ -19,4 +19,6 @@
 <script src="{{ asset('aleric/assets/js/main.js') }}"></script>
 <script src="{{ asset('aleric/assets/js/tp-cursor.js') }}"></script>
 <script type="module" src="{{ asset('aleric/assets/js/img-revel/index.js') }}"></script>
+@livewireScripts
+
 

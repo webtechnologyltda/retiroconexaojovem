@@ -1,4 +1,4 @@
-﻿<!-- tp-footer-area-start -->
+﻿
             <div class="tp-footer-area tp-bg-common-black-5 pt-155">
                 <div class="container-fluid container-1524">
                     <div class="row">
@@ -50,5 +50,6 @@
                     </div>
                 </div>
             </div>
-            <!-- tp-footer-area-end -->
+            
+
 

@@ -1,4 +1,4 @@
-﻿<!-- tp-blog-area-start -->
+﻿
             <div class="tp-blog-area pt-160 pb-130">
                 <div class="container-fluid container-1524">
                     <div class="row align-items-center">
@@ -77,5 +77,6 @@
                     </div>
                 </div>
             </div>
-            <!-- tp-blog-area-end -->
+            
+
 

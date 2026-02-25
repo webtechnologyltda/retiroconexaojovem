@@ -1,4 +1,4 @@
-﻿<!-- tp-hero-area-start -->
+﻿
             <div class="tp-hero-area p-relative fix pre-header">
                 <div class="content z-index-2 d-none d-md-block">
                     <div class="content__img">
@@ -82,5 +82,6 @@
                     </div>
                 </div>
             </div>
-            <!-- tp-hero-area-end -->
+            
+
 

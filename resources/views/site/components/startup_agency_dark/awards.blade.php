@@ -1,4 +1,4 @@
-﻿<!-- tp-awards-vp-area-start -->
+﻿
             <div id="awards" class="tp-awards-vp-content-row text-align-center dark-section" data-bgcolor="#0c0c0c">
                 <div class="tp-awards-vp-move-thumbs-wrapper">
                     <div class="tp-awards-vp-start-thumbs-wrapper">
@@ -55,5 +55,6 @@
                     </div>
                 </div>
             </div>
-            <!-- tp-awards-vp-area-end -->
+            
+
 

@@ -1,4 +1,4 @@
-﻿<!-- tp-video-vp-area-start -->
+﻿
             <div class="tp-video-vp-area tp-video-brand-img-wrap-2 fix pb-160">
                 <div class="container-fluid container-1830 p-0">
                     <div class="row">
@@ -14,5 +14,6 @@
                     </div>
                 </div>
             </div>
-            <!-- tp-video-vp-area-end -->
+            
+
 
