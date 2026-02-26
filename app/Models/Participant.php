@@ -9,6 +9,7 @@ class Participant extends Model
     protected $fillable = [
         'full_name',
         'birth_date',
+        'sex',
         'cpf',
         'community',
         'shirt_size_id',

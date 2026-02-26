@@ -35,6 +35,14 @@ class ParticipantsTable
                     ->label('Data de Nascimento')
                     ->date('d/m/Y'),
 
+                TextColumn::make('sex')
+                    ->label('Sexo')
+                    ->formatStateUsing(fn (?string $state): string => match ($state) {
+                        'male' => 'Masculino',
+                        'female' => 'Feminino',
+                        default => '-',
+                    }),
+
                 TextColumn::make('community')
                     ->label('Comunidade')
                     ->toggleable(),

@@ -43,6 +43,14 @@ class ParticipantForm
                             ->native(false)
                             ->maxDate(now()),
 
+                        Select::make('sex')
+                            ->label('Sexo')
+                            ->options([
+                                'male' => 'Masculino',
+                                'female' => 'Feminino',
+                            ])
+                            ->required(),
+
                         TextInput::make('cpf')
                             ->label('CPF')
                             ->required()
@@ -89,12 +97,6 @@ class ParticipantForm
                                     ->where('label', 'Other')
                                     ->exists();
                             }),
-
-                        Select::make('referral_source_id')
-                            ->relationship('referralSource', 'name')
-                            ->label('Como conheceu o retiro')
-                            ->searchable()
-                            ->preload(),
                     ])
                     ->columns(3),
 

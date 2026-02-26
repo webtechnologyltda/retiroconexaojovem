@@ -33,6 +33,7 @@ return new class extends Migration
             $table->id();
             $table->string('full_name');
             $table->date('birth_date');
+            $table->string('sex', 10)->nullable();
             $table->string('cpf', 14)->unique();
             $table->string('community')->nullable();
             $table->foreignId('shirt_size_id')->nullable()->constrained()->nullOnDelete();
